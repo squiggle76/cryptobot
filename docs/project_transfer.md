@@ -196,3 +196,12 @@ cryptobot/
 - Bot Infra —
 - Bot GitHub —
 
+
+## [2025-11-01]
+- Bot Director —
+- Bot Ingestion —
+- Bot Features —
+- Bot Detectors —
+- Bot Infra —
+- Bot GitHub —
+
