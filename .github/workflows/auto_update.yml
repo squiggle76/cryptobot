@@ -17,14 +17,13 @@ jobs:
         run: |
           git config --global user.name "squigbot"
           git config --global user.email "bot@github.com"
-        
+
         - name: Update transfer logs
           run: |
             echo "=== Running update_log_structure.sh ==="
             bash -x scripts/update_log_structure.sh
             echo "=== Running update_transfer.sh ==="
             bash -x scripts/update_transfer.sh
-       
       - name: Push changes
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
